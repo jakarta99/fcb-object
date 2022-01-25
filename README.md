@@ -21,7 +21,7 @@ Jilldolala is FCBMatt
 
 
 # Chapter 6 Singjen626
-你好，我是新人
+##你好，我是新人
 
 # Chapter 7 Footwalk
 ## 大家好
