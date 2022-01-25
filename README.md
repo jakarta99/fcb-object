@@ -19,7 +19,7 @@ yyy
 
 
 # Chapter 6 Singjen626
-
+你好，我是新人
 
 # Chapter 7 Footwalk
 
