@@ -1,10 +1,10 @@
 # Chapter 0 Gary Lee
 xxx
 yyy
-
+zzzz
 
 # Chapter 1 Yuwei-lee
-<<<<<<< HEAD
+
 ##Jilldolala is FCBMatt
 
 # Chapter 2 CopyKobe0103
@@ -69,4 +69,4 @@ Jilldolala is FCBMatt
 
 # Chapter 10 H25949
 ## hi hi~!!
->>>>>>> branch 'main' of https://github.com/jakarta99/fcb-object.git
+
