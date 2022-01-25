@@ -1,10 +1,10 @@
 # Chapter 0 Gary Lee
 xxx
 yyy
-haha
+Haha , zzzz
 
 # Chapter 1 Yuwei-lee
-<<<<<<< HEAD
+
 ##Jilldolala is FCBMatt
 
 # Chapter 2 CopyKobe0103
@@ -63,10 +63,12 @@ Jilldolala is FCBMatt
 
 ```diff
 + My name is Cheng-Jung
+```
+
 
 # Chapter 9 Jilldolala25
 ### 我是張涵茹  dolala 多啦A夢愛好者
 
 # Chapter 10 H25949
 ## hi hi~!!
->>>>>>> branch 'main' of https://github.com/jakarta99/fcb-object.git
+
