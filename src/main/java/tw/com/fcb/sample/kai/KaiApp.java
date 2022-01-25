@@ -10,5 +10,4 @@ public class KaiApp {
 		System.out.println("Hello World");
 		System.out.println(num1 == num2);
 	}
-
 }
