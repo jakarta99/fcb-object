@@ -15,7 +15,7 @@ public class Jilldolala25App {
             System.out.println("DecimalFormat = " + numericProcess.DecimalFormat(input));
             System.out.println("SubStringFormat = " + numericProcess.SubStringFormat(String.valueOf(input)));
             System.out.println("StringFormat = " + numericProcess.StringFormat(input));
-
+            System.out.println("contactProcess) = " + numericProcess.ContactProcess("that","this"));
 
         }catch (Exception e){
             System.out.println("輸入錯誤，請重新輸入");

@@ -11,14 +11,14 @@ public class NumericProcess {
 
         return result1;
     }
-
+    //length
+    //substring
+    //indexof
     public  String SubStringFormat(String b){
         String str1 = "00000000";
-        int originLength = str1.length();
-        int inputLength = b.length();
         String str3 = str1 + b;
         int totLength = str3.length();
-        String result2 = str3.substring(totLength-str3.lastIndexOf(b),originLength + inputLength);
+        String result2 = str3.substring(totLength-str3.lastIndexOf(b),totLength);
         return  result2;
     }
 
@@ -28,11 +28,16 @@ public class NumericProcess {
     }
 
     //contact
-    //indexOf
-    //length
+    public String ContactProcess(String a,String b){
+        String str1 = a.concat(b);
+        String str2 = str1.concat(a);
+        return  str2;
+    }
+
+
     //replace
     //split
-    //substring
+
     //toUpperCase
     //toLowerCase
     //valueOf
