@@ -8,6 +8,13 @@ public class ObjectApp {
 		
 		System.out.println(a == b);
 		
+		Integer c = Integer.valueOf(1);
+		Integer d = Integer.valueOf(1);
+		
+		System.out.println(c == d);
+		
+		
+		
 	}
 
 }
