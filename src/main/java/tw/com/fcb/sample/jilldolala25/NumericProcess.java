@@ -1,5 +1,7 @@
 package tw.com.fcb.sample.jilldolala25;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.text.DecimalFormat;
 
 public class NumericProcess {
@@ -25,6 +27,16 @@ public class NumericProcess {
     public  String StringFormat(int b){
         String result3 = String.format("%08d",b);
         return  result3;
+    }
+    //padingleft
+    public String PaddingLeft(String str1,int length){
+        if(str1.length() > length)
+        {
+            return str1;
+        }else{
+
+            return  StringUtils.leftPad(str1,length,'0');
+        }
     }
 
     //contact
