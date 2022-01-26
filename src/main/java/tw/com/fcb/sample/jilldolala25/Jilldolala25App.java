@@ -21,7 +21,7 @@ public class Jilldolala25App {
             System.out.print("請輸入長度:");
             Scanner scanner1 = new Scanner(System.in);
             input1 = scanner1.nextInt();
-            System.out.println("paddingLeft = " + numericProcess.PaddingLeft(String.valueOf(input), input1));;
+            System.out.println("paddingLeft = " + numericProcess.PaddingLeft(String.valueOf(input), input1));
             System.out.println("contactProcess = " + numericProcess.ContactProcess("that","this"));
 
 
