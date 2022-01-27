@@ -23,10 +23,10 @@ public class IrisApp {
                     GetFormat strF1 = new GetFormat();
                     strF1.setLen(len);
                     System.out.println("out=" + strF1.formatZeros(dataNum));
-                    break;
+                    flag = false;;
                 }
             } catch(NumberFormatException e){
-                System.out.println("資料呈現長度非數字型態!請重新輸入「資料呈現長度(右靠左補零)」：");
+                System.out.println("資料呈現長度非數字型態!請重新輸入「資料呈現長度」：");
             }
         }while (flag);
 
