@@ -18,6 +18,6 @@ public class h25949 {
         for (int x=0;x<(i-s.length());x++) {
         	ok = ok + 0;
         }
-        System.out.println(ok+s);
+        System.out.println( ok+s );
 	}
 }
