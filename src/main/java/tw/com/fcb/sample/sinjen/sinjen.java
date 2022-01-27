@@ -119,4 +119,5 @@ public class sinjen {
 		}
 		return new String(charr);
 	}
+	
 }
