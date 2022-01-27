@@ -102,3 +102,4 @@ https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.ht
 int num = 12;
 String result = ??
 ```
+>>>>>>> branch 'main' of https://github.com/jakarta99/fcb-object.git
