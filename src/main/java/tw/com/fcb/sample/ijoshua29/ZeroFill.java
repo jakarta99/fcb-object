@@ -14,6 +14,7 @@ public class ZeroFill {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("請輸入8位數以內數字：");
 		
+		
 		try {
 			num1 = scanner.nextInt();
 			inputNumber = String.valueOf(num1);
