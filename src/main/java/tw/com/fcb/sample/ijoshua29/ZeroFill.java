@@ -6,7 +6,7 @@ public class ZeroFill {
 
 	public static void main(String[] args) {
 		
-		char fillChar = '0';
+		char fillChar = '0'; 
 		int num1 = 0;
 		int maxLength = 8;
 		String inputNumber;
