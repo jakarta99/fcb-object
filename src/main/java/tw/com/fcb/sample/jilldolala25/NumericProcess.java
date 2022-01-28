@@ -46,10 +46,4 @@ public class NumericProcess {
     }
 
 
-    //replace
-    //split
-
-    //toUpperCase
-    //toLowerCase
-    //valueOf
 }
