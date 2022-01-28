@@ -30,6 +30,7 @@ public class IrisApp {
             }
         }while (flag);
 
+        strNum.close();
 	}
 
 }
