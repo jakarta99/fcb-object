@@ -21,6 +21,7 @@ public class WeiFan {
 			System.out.println("長度輸入錯誤，無法補零");
 		}
 		System.out.println(Number);
+		s.close();
 	}
 
 }
