@@ -10,7 +10,6 @@ public class ZeroFill {
 		int num1 = 0;
 		int maxLength = 8;
 		String inputNumber;
-		String pattern;
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("請輸入8位數以內數字：");
@@ -24,9 +23,8 @@ public class ZeroFill {
 			}
 			else
 			{
-				pattern = "%" + maxLength + "s";
 				// 字串左邊補0
-				System.out.println(leftFill(pattern, inputNumber, fillChar));
+				System.out.println(leftFill(inputNumber, fillChar, maxLength));
 			}			
 		}
 		catch (Exception ex)
@@ -37,9 +35,28 @@ public class ZeroFill {
 		scanner.close();
 	}
 	
-	private static String leftFill(String pattern,String strNumber, char fillChar)
+	private static String leftFill(String strNumber, char fillChar, int maxLength)
 	{			 
-		return String.format(pattern, strNumber).replace(' ', fillChar);
+		//return String.format(pattern, strNumber).replace(' ', fillChar);
+		String rtnStr = "";
+		int strIndex = 0;
+		
+		for (int i = 0; i < maxLength; i++)
+		{
+			if (i < (maxLength - strNumber.length()))
+			{
+				rtnStr = rtnStr + fillChar;
+			}
+			else
+			{
+				rtnStr = rtnStr + strNumber.charAt(strIndex);
+				strIndex ++;
+			}				
+			
+			System.out.println("i(" + i + ")=" + rtnStr);
+		}
+		
+		return rtnStr;
 	}
 
 }
